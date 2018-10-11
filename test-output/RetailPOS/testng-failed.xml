@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetailPOS]" allow-return-values="true">
+  <parameter name="browser" value="windows"/>
+  <test name="Inventory(failed)">
+    <parameter name="browser" value="windows"/>
+    <classes>
+      <class name="com.retailpos.scripts.WindowsTest">
+        <methods>
+          <include name="WindowsTest"/>
+          <include name="tearDownAfterMethod"/>
+          <include name="openBrowser"/>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.retailpos.scripts.WindowsTest -->
+    </classes>
+  </test> <!-- Inventory(failed) -->
+</suite> <!-- Failed suite [RetailPOS] -->

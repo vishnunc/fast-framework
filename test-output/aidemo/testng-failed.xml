@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [aidemo]">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.qentelli.automation.utilities.TestListener"/>
+  </listeners>
+  <test name="BrowserNotFound_Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.aidemo.scripts.BrowserNotFound_Chrome">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="openBrowser"/>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="BrowserNotFound_Chrome"/>
+        </methods>
+      </class> <!-- com.aidemo.scripts.BrowserNotFound_Chrome -->
+    </classes>
+  </test> <!-- BrowserNotFound_Chrome(failed) -->
+</suite> <!-- Failed suite [aidemo] -->

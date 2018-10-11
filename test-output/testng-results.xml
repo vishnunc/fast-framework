@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RetailPOS" duration-ms="60651" started-at="2017-02-08T04:29:53Z" finished-at="2017-02-08T04:30:54Z">
+    <groups>
+      <group name="smoke">
+        <method signature="AddItemToInventory.AddItemToInventory()[pri:0, instance:com.retailpos.scripts.AddItemToInventory@1613674b]" name="AddItemToInventory" class="com.retailpos.scripts.AddItemToInventory"/>
+        <method signature="AddItemToInventoryWithInvalidData.AddItemToInventoryWithInvalidData()[pri:0, instance:com.retailpos.scripts.AddItemToInventoryWithInvalidData@a3d8174]" name="AddItemToInventoryWithInvalidData" class="com.retailpos.scripts.AddItemToInventoryWithInvalidData"/>
+        <method signature="SaleByCashFromPOS.SaleByCashFromPOS()[pri:0, instance:com.retailpos.scripts.SaleByCashFromPOS@27ff5d15]" name="SaleByCashFromPOS" class="com.retailpos.scripts.SaleByCashFromPOS"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Inventory" duration-ms="60651" started-at="2017-02-08T04:29:53Z" finished-at="2017-02-08T04:30:54Z">
+      <class name="com.retailpos.scripts.AddItemToInventoryWithInvalidData">
+        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:com.retailpos.scripts.AddItemToInventoryWithInvalidData@a3d8174]" name="setupSuite" is-config="true" duration-ms="13" started-at="2017-02-07T22:29:53Z" finished-at="2017-02-07T22:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@687ef2e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.retailpos.scripts.AddItemToInventoryWithInvalidData@a3d8174]" name="openBrowser" is-config="true" duration-ms="6" started-at="2017-02-07T22:30:09Z" finished-at="2017-02-07T22:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.retailpos.scripts.AddItemToInventoryWithInvalidData@a3d8174]" name="reportHeader" is-config="true" duration-ms="1" started-at="2017-02-07T22:30:09Z" finished-at="2017-02-07T22:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.retailpos.scripts.AddItemToInventoryWithInvalidData.AddItemToInventoryWithInvalidData() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="AddItemToInventoryWithInvalidData()[pri:0, instance:com.retailpos.scripts.AddItemToInventoryWithInvalidData@a3d8174]" name="AddItemToInventoryWithInvalidData" duration-ms="25009" started-at="2017-02-07T22:30:09Z" finished-at="2017-02-07T22:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemToInventoryWithInvalidData -->
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.retailpos.scripts.AddItemToInventoryWithInvalidData@a3d8174]" name="tearDownAfterMethod" is-config="true" duration-ms="1" started-at="2017-02-07T22:30:34Z" finished-at="2017-02-07T22:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.retailpos.scripts.AddItemToInventoryWithInvalidData@a3d8174]" name="tearDown" is-config="true" duration-ms="226" started-at="2017-02-07T22:30:54Z" finished-at="2017-02-07T22:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.retailpos.scripts.AddItemToInventoryWithInvalidData -->
+      <class name="com.retailpos.scripts.AddItemToInventory">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.retailpos.scripts.AddItemToInventory@1613674b]" name="openBrowser" is-config="true" duration-ms="570" started-at="2017-02-07T22:29:53Z" finished-at="2017-02-07T22:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.retailpos.scripts.AddItemToInventory@1613674b]" name="reportHeader" is-config="true" duration-ms="3" started-at="2017-02-07T22:29:54Z" finished-at="2017-02-07T22:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.retailpos.scripts.AddItemToInventory.AddItemToInventory() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="AddItemToInventory()[pri:0, instance:com.retailpos.scripts.AddItemToInventory@1613674b]" name="AddItemToInventory" duration-ms="15020" started-at="2017-02-07T22:29:54Z" finished-at="2017-02-07T22:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemToInventory -->
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.retailpos.scripts.AddItemToInventory@1613674b]" name="tearDownAfterMethod" is-config="true" duration-ms="2" started-at="2017-02-07T22:30:09Z" finished-at="2017-02-07T22:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+      </class> <!-- com.retailpos.scripts.AddItemToInventory -->
+      <class name="com.retailpos.scripts.SaleByCashFromPOS">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.retailpos.scripts.SaleByCashFromPOS@27ff5d15]" name="openBrowser" is-config="true" duration-ms="7" started-at="2017-02-07T22:30:34Z" finished-at="2017-02-07T22:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.retailpos.scripts.SaleByCashFromPOS@27ff5d15]" name="reportHeader" is-config="true" duration-ms="1" started-at="2017-02-07T22:30:34Z" finished-at="2017-02-07T22:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.retailpos.scripts.SaleByCashFromPOS.SaleByCashFromPOS() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="SaleByCashFromPOS()[pri:0, instance:com.retailpos.scripts.SaleByCashFromPOS@27ff5d15]" name="SaleByCashFromPOS" duration-ms="20011" started-at="2017-02-07T22:30:34Z" finished-at="2017-02-07T22:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaleByCashFromPOS -->
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.retailpos.scripts.SaleByCashFromPOS@27ff5d15]" name="tearDownAfterMethod" is-config="true" duration-ms="1" started-at="2017-02-07T22:30:54Z" finished-at="2017-02-07T22:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+      </class> <!-- com.retailpos.scripts.SaleByCashFromPOS -->
+    </test> <!-- Inventory -->
+  </suite> <!-- RetailPOS -->
+</testng-results>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RetailPOS" allow-return-values="true">
+	<test name="Inventory" preserve-order="true">
+	<parameter name="browser" value="windows"/>
+		<classes>
+		 	<class name="com.retailpos.scripts.AddItemToInventory"/> 
+				<class name="com.retailpos.scripts.AddItemToInventoryWithInvalidData"/> 
+       			<class name="com.retailpos.scripts.SaleByCashFromPOS"/> 
+		</classes>
+	</test>
+</suite>
